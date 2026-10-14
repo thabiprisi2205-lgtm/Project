@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>S. J. Thabithal Jaya Rani | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #081426;
+            color: #eef6ff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #10223a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #57d7e8;
+        }
+
+        header h2 {
+            color: #57d7e8;
+        }
+
+        nav {
+            margin-top: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #57d7e8;
+        }
+
+        section {
+            padding: 45px 8%;
+            scroll-margin-top: 15px;
+        }
+
+        .home {
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .home h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .home span {
+            color: #57d7e8;
+        }
+
+        p {
+            color: #b5c5d9;
+            margin: 10px 0;
+        }
+
+        h2 {
+            color: #57d7e8;
+            margin-bottom: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 22px;
+            background: #57d7e8;
+            color: #081426;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card {
+            background: #10223a;
+            padding: 22px;
+            margin: 15px 0;
+            border-radius: 12px;
+            border: 1px solid #27415f;
+        }
+
+        .card h3 {
+            color: white;
+            margin-bottom: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #142b47;
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 1px solid #27415f;
+        }
+
+        .contact a {
+            color: #57d7e8;
+            overflow-wrap: anywhere;
+        }
+
+        footer {
+            background: #10223a;
+            text-align: center;
+            padding: 20px;
+            color: #b5c5d9;
+        }
+
+        @media (max-width: 600px) {
+            .home h1 {
+                font-size: 29px;
+            }
+
+            section {
+                padding: 35px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>SJ. Thabithal Jaya Rani</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <h1>Hi, I'm <span>S. J. Thabithal Jaya Rani</span></h1>
+
+    <h3>Aspiring Software Developer</h3>
+
+    <p>
+        B.Sc. Computer Science Student<br>
+        Bishop Heber College | 2026–2029
+    </p>
+
+    <p>
+        Passionate about programming, problem solving
+        and building useful software.
+    </p>
+
+    <a href="#projects" class="btn">Explore My Projects</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            I am S. J. Thabithal Jaya Rani, a B.Sc. Computer
+            Science student at Bishop Heber College.
+            I am interested in programming, algorithms,
+            databases and software development.
+        </p>
+
+        <p>
+            My dream is to become a software developer
+            in the IT field. I want to improve my technical
+            knowledge and develop useful applications.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <span>Problem Solving</span>
+        <span>Programming Languages</span>
+        <span>Communication</span>
+        <span>Teamwork</span>
+        <span>Database Concepts</span>
+        <span>Algorithms</span>
+        <span>Data Structures</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>1. Supermarket Billing System</h3>
+        <p>
+            An academic project focused on calculating
+            product prices and preparing customer bills.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>2. Linear and Non-Linear Data Structures</h3>
+        <p>
+            A project exploring methods of organising
+            and processing data using different
+            data structures.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>3. Vector Calculus in Weather Prediction</h3>
+        <p>
+            An academic project exploring applications
+            of vector calculus in weather-related concepts
+            such as wind, temperature and pressure.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>My Education</h2>
+
+    <div class="card">
+        <h3>B.Sc. Computer Science</h3>
+        <p>Bishop Heber College</p>
+        <p>2026–2029</p>
+    </div>
+
+    <div class="card">
+        <h3>Higher Secondary Education</h3>
+        <p>Shree Kalaimagal Matric Hr. Sec. School</p>
+        <p>12th Mark: 417 / 600</p>
+    </div>
+
+    <div class="card">
+        <h3>Secondary Education</h3>
+        <p>Shree Kalaimagal Matric Hr. Sec. School</p>
+        <p>10th Mark: 361 / 500</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <div class="card">
+        <p>Email:</p>
+        <a href="mailto:thabiprisi2205@gmail.com">
+            thabiprisi2205@gmail.com
+        </a>
+
+        <p style="margin-top: 20px;">LinkedIn Profile:</p>
+        <a
+          href="https://www.linkedin.com/in/thabithal-jayarani-s-j-74736b424/"
+          target="_blank"
+          rel="noopener noreferrer">
+            Visit My LinkedIn
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>
+        © 2026 S. J. Thabithal Jaya Rani
+    </p>
+    <p>Student Developer Portfolio</p>
+</footer>
+
+</body>
+</html>
